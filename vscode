@@ -1,0 +1,65 @@
+{
+  // 🖊️ Editor
+  "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.hover.delay": 0,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // 🖼️ Workbench (Aparência e Comportamento)
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.iconTheme": "seti",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreviewFromCodeNavigation": true,
+  "workbench.editor.enablePreviewFromQuickOpen": true,
+  "workbench.panel.opensMaximized": "never",
+
+  // 🔄 Janela e Restauramento
+  "window.customTitleBarVisibility": "auto",
+  "window.restoreWindows": "none",
+
+  // 🔍 Explorer (Gerenciador de Arquivos)
+  "explorer.compactFolders": false,
+  "explorer.incrementalNaming": "smart",
+  "explorer.openEditors.visible": 1,
+  "explorer.autoRevealExclude": {
+    "**/node_modules": false,
+    "*/node_modules": true,
+    "node_modules": true
+  },
+
+  // 🔧 Git
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+
+  // 💡 Error Lens (Mensagens de Erro no Código)
+  "errorLens.enabled": true,
+  "errorLens.fontWeight": "bold",
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.statusBarMessageEnabled": true,
+  "errorLens.messageEnabled": false,
+  "errorLens.delay": 10000,
+  "errorLens.delayMode": "debounce",
+
+  // ⚡ Terminal
+  "terminal.integrated.fontSize": 16,
+
+  // 📦 TypeScript & JavaScript (Importações Automáticas)
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // 🤖 Chat AI / Assistente de Código
+  "chat.editing.alwaysSaveWithGeneratedChanges": true
+}
